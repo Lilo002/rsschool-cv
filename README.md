@@ -1,2 +1,2 @@
 https://Lilo002.github.io/rsschool-cv/cv
-ttps://Lilo002.github.io/rsschool-cv/
+https://Lilo002.github.io/rsschool-cv/
