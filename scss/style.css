@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: url(/assets/img/2.jpg) no-repeat 50% 0/cover;
+  background: url(../assets/img/2.jpg) no-repeat 50% 0/cover;
   font-family: "Playfair Display", serif;
   min-height: 100vh;
 }
@@ -24,7 +24,12 @@ li {
 a {
   text-decoration: none;
   color: rgba(250, 240, 240, 0.65);
+  transition: all 0.3s;
 }
+a:hover {
+  color: rgba(200, 158, 198, 0.845);
+}
+
 .container {
   display: block;
   margin: 0 auto;
@@ -47,6 +52,12 @@ a {
   height: 100%;
   position: relative;
 }
+@media (max-width: 850px) {
+  .navigation {
+    height: 100vh;
+    overflow: hidden;
+  }
+}
 .navigation__list {
   display: flex;
   justify-content: space-evenly;
@@ -67,7 +78,6 @@ a {
     justify-content: space-between;
     align-items: center;
     z-index: 90;
-    overflow: hidden;
     background-color: rgba(43, 43, 43, 0.974);
     padding: 80px 0;
     height: 100vh;
@@ -287,6 +297,9 @@ h2 {
 .contacts .tel::before {
   background-image: url(../assets/img/phone.png);
 }
+.contacts__link:hover {
+  color: rgba(250, 240, 240, 0.65);
+}
 
 .about-me__descr {
   padding-top: 20px;
@@ -349,16 +362,28 @@ h2 {
 .courses__list {
   padding-top: 20px;
 }
+.courses__link:hover {
+  color: rgba(250, 240, 240, 0.65);
+}
 
 .projects__list {
   padding-top: 20px;
   padding-left: 20px;
 }
+.projects__link:hover {
+  color: rgba(250, 240, 240, 0.65);
+}
 
 .education__list {
   padding-top: 20px;
 }
+.education__link:hover {
+  color: rgba(250, 240, 240, 0.65);
+}
 
+.english__sertificate-link:hover {
+  color: rgba(250, 240, 240, 0.65);
+}
 .english__wrapper {
   display: flex;
   justify-content: space-between;
