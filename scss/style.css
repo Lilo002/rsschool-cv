@@ -56,6 +56,7 @@ a:hover {
   .navigation {
     height: 100vh;
     overflow: hidden;
+    visibility: hidden;
   }
 }
 .navigation__list {

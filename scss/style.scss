@@ -53,6 +53,7 @@ a {
     @media (max-width:850px) {
         height: 100vh;
         overflow: hidden;
+        visibility: hidden;
     }
     &__list {
         display: flex;
