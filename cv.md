@@ -12,7 +12,7 @@ I am 26 y.o. I am a doctor. But recently realise that I want to learn something 
 
 ## *Skills*
 CSS / SCSS / HTML <br>
-Vanila JS / DOM-events <br>
+Vanilla JS / DOM-events <br>
 Git <br>
 
 
